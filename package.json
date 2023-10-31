@@ -13,13 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rocketseat/eslint-config": "^2.1.0",
-    "@types/node": "^20.8.10",
-    "tsup": "^7.2.0",
-    "tsx": "^3.12.3",
-    "typescript": "^5.2.2"
+    "@rocketseat/eslint-config": "2.1.0",
+    "@types/node": "20.8.10",
+    "tsup": "7.2.0",
+    "tsx": "3.12.3",
+    "typescript": "5.2.2"
   },
   "dependencies": {
-    "fastify": "^4.24.3"
+    "fastify": "4.24.3"
   }
 }
