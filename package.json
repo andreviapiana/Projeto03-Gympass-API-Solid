@@ -4,14 +4,22 @@
   "description": "GymPass style app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint **/*.ts* --fix"
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint **/*.ts* --fix",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.8.10",
+    "tsup": "^7.2.0",
+    "tsx": "^3.12.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3"
   }
 }
