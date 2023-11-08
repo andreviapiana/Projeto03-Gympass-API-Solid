@@ -66,7 +66,7 @@ ___
 - [x] A senha do usuário precisa estar criptografada;
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
-- [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
+- [x] O usuário deve ser identificado por um JWT (JSON Web Token);
 
 ___
 
@@ -108,7 +108,7 @@ $ cd Projeto03-Gympass-API-Solid
 # Abra um novo terminal e execute o seguinte código para instalar o Banco(o Docker deve estar instalado e em execução)
 $ docker compose up -d
 
-# No deu Docker será instalado o Banco de Dados desta aplicação.
+# No seu Docker será instalado o Banco de Dados desta aplicação.
 # Com o Banco do Docker em execução e a API em execução, basta realizar as requisições pelo Insomnia.
 
 ```
